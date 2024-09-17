@@ -1,0 +1,15 @@
+[package]
+name = "dev_diary"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+console = "0.15.8"
+dialoguer = {version = "0.11.0", features = ["fuzzy-select"]}
+dotenv = "0.15.0"
+termimad = "0.30.0"
+reqwest = { version = "0.12.7", features = ["json"] }
+serde = { version = "1.0.202", features = ["derive"] }
+serde_json = "1.0.117"
+tokio = { version = "1.37.0", features = ["full"] }
